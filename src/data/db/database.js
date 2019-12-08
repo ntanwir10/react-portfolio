@@ -16,9 +16,9 @@ const database = {
       stackoverflow: 'https://stackoverflow.com/users/6488504/nauman-tanwir',
       gmail: 'ntanwir10@gmail.com',
     },
-    brandImage: '/images/brand-image.jpg',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
+    brandImage: '/images/homepage.jpg',
+    aboutImage: '/images/about.jpg',
+    aboutImageLg: '/images/about.jpg',
     cvfile: '/files/nauman_tanwir_cv.pdf'
   },
   reviews: [
