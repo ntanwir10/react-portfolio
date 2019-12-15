@@ -4,7 +4,6 @@ import './App.scss';
 import Home from './pages/Home';
 import About from './pages/About';
 import Resumes from './pages/Resumes';
-// import Portfolios from './pages/Portfolios';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 

@@ -25,13 +25,13 @@ function Socialicons(props) {
           <LineIcon name='github' />
         </a>
       </li>}
-      {!socialLinks.github ? null : <li>
+      {!socialLinks.stackoverflow ? null : <li>
         <a rel='noopener noreferrer' target='_blank' href={socialLinks.stackoverflow}>
           <LineIcon name='stackoverflow' />
         </a>
       </li>}
-      {!socialLinks.github ? null : <li>
-        <a rel='noopener noreferrer' target='_blank' href={'mailto:' + socialLinks.envelope}>
+      {!socialLinks.gmail ? null : <li>
+        <a rel='noopener noreferrer' target='_blank' href={'mailto:' + socialLinks.gmail}>
           <LineIcon name='envelope' />
         </a>
       </li>}
