@@ -62,7 +62,7 @@ function About() {
                   I am <span className='color-theme'>{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer with over 4 Years of work experience in front-end developement. I can provide clean code and pixel perfect design.
+                  {information.aboutContent}
                 </p>
                 <ul>
                   {!information.name ? null : <li>
@@ -70,9 +70,6 @@ function About() {
                   </li>}
                   {!information.email ? null : <li>
                     <b>Email</b> {information.email}
-                  </li>}
-                  {!information.age ? null : <li>
-                    <b>Age</b> {information.age} Years
                   </li>}
                   {!information.phone ? null : <li>
                     <b>Phone</b> {information.phone}

@@ -3,13 +3,11 @@ import Mock from '../mock';
 const database = {
   information: {
     name: 'Nauman Tanwir',
-    aboutContent: 'I am a frontend web developer with over 4 years of experience in front end development',
-    age: 28,
+    aboutContent: 'I am a frontend web developer with over 5 years of experience in front end development. I can provide clean code and pixel perfect design.',
     phone: '(+91)725-914-1631',
     language: 'English, Hindi',
     email: 'ntanwir10@gmail.com',
-    address: '106.51.83.101',
-    localAddress: '192.168.120.138',
+    address: '192.168.43.227',
     socialLinks: {
       linkedin: 'https://www.linkedin.com/in/naumantanwir/',
       github: 'https://github.com/ntanwir10',
@@ -101,7 +99,7 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: 'April 2019 to present',
+        year: 'April 2019 to March 2020',
         position: 'Frontend Web Developer',
         company: 'Koch Technology Centre (KTC). ',
         details: 'It is the Global IT division of Koch Industries Inc, providing all kinds of software and IT solutions to all its businesses',
@@ -113,7 +111,6 @@ const database = {
         position: 'Frontend Web Developer',
         company: 'Globant Pvt. Ltd.',
         location: 'Bangalore, India',
-
       },
       {
         id: 3,
@@ -142,15 +139,17 @@ const database = {
     educationExperience: [
       {
         id: 1,
-        university: 'University College Cork, Ireland.',
+        university: 'University College Cork',
+        location: 'Cork, Ireland',
         year: '2014 – 2015',
-        course: 'Master of Science(MSc.) in Computing Science',
+        course: 'Master of Science in Computing Science',
       },
       {
         id: 2,
-        year: '2009 –2013',
-        course: 'Bachelor of Technology (B. Tech) in Information Technology',
         university: 'Integral University',
+        location: 'Lucknow, India',
+        year: '2009 –2013',
+        course: 'Bachelor of Technology in Information Technology',
       },
     ]
   },
@@ -158,7 +157,7 @@ const database = {
   contactInfo: {
     phoneNumber: '(+91)725-914-1631',
     emailAddress: ['ntanwir10@gmail.com', 'reachout@naumantanwir.me'],
-    address: '106.51.83.101'
+    address: '192.168.43.227'
   }
 }
 

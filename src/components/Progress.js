@@ -9,7 +9,7 @@ function Progress(props) {
         <div className='progress-container'>
           <span
             className='progress-active'
-            style={props.isVisible ? { width: `${props.percentage}%` } : { width: 0 }}
+            style={props.isvisible ? { width: `${props.percentage}%` } : { width: 0 }}
           ></span>
         </div>
       </div>

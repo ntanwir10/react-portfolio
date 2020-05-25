@@ -9,8 +9,9 @@ function Resume(props) {
       </div>
       <div className="resume-details">
         <h5>{position || course}</h5>
-        <h6 className="resume-company">{company || university}</h6>  <p>{location}</p>
-        <p>{details}</p>
+        <h6 className="resume-company">{company || university}</h6>
+        <p><i className="lni lni-map-marker"></i>{location}</p>
+        <p className="description">{details}</p>
       </div>
     </div>
   );
