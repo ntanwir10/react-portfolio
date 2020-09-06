@@ -38,6 +38,7 @@ function Header() {
                 <ul className='header-menu'>
                     <li><NavLink exact to='/'><span>Home</span></NavLink></li>
                     <li><NavLink to='/about'><span>About</span></NavLink></li>
+                    <li><NavLink to='/projects'><span>Projects</span></NavLink></li>
                     <li><NavLink to='/skills'><span>Skills</span></NavLink></li>
                     <li><NavLink to='/resume'><span>Resume</span></NavLink></li>
                     <li><NavLink to='/contact'><span>Contact</span></NavLink></li>

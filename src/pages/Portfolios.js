@@ -22,7 +22,7 @@ function Portfolios() {
         <div className="container">
           <Sectiontitle title="Portfolios" />
           <div className="row mt-30-reverse">
-            {portfolios.map((portfolio) => (
+            {/* {portfolios.map((portfolio) => (
               <TrackVisibility
                 once
                 offset={200}
@@ -31,7 +31,7 @@ function Portfolios() {
               >
                 <Portfolio content={portfolio} />
               </TrackVisibility>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>
